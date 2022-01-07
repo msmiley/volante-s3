@@ -1,0 +1,16 @@
+{
+  "name": "S3Test",
+  "debug": true,
+  "attach": [
+    "volante-console"
+  ],
+  "attachLocal": [
+    "./src",
+    "./example/example"
+  ],
+  "VolanteS3": {
+    "endpoint": "http://r1b7",
+    "accessKey": "W4UXK7TERH1QNBFVQ00I",
+    "secretKey": "ydwP5Hcj0650GZNFjjb192rmdu5bh7IjARA0rCbc"
+  }
+}

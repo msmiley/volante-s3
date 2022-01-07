@@ -1,0 +1,23 @@
+{
+  "name": "volante-s3",
+  "version": "1.0.0",
+  "description": "volante module for AWS S3",
+  "author": "Mike Smiley <msmiley@alumni.rice.edu>",
+  "url": "https://github.com/msmiley/volante-s3",
+  "repository": "msmiley/volante-s3.git",
+  "license": "ISC",
+  "main": "./src",
+  "scripts": {
+    "dev": "node example/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.45.0"
+  },
+  "devDependencies": {
+    "volante": "^6.0.0",
+    "volante-console": "^4.0.0"
+  },
+  "keywords": [
+    "volante"
+  ]
+}
